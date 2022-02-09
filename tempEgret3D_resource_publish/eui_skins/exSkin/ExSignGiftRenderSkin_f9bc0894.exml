@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ExSignGiftRenderSkin"
+	 width="111"
+	height="138" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="g">
+		<e:Group visible="true" height="126" horizontalCenter="0" top="11" width="88">
+			<e:Image id="dayImage" source="day5bg_png" scaleX="1" scaleY="1" horizontalCenter="0" visible="true" bottom="0"/>
+			<e:Image id="icon" source="coin_icon_png" scaleX="1" scaleY="1" horizontalCenter="0" top="14"/>
+			<e:Image id="big" scaleX="1" scaleY="1" horizontalCenter="0.5" top="-5" x="26" y="24" source="big_icon_png" visible="false"/>
+			<e:Label id="glod" text="x0" stroke="3" strokeColor="0xFFFFFF" size="20" horizontalCenter="0" bottom="52" bold="true" textColor="0xEE555B"/>
+			<e:Image id="lockBg" source="signLock_png" visible="false" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image id="edBg" source="signEd_png" horizontalCenter="0" top="0" x="1" y="-13" scaleX="1" scaleY="1" visible="false" width="111" height="111"/>
+	</e:Group>
+</e:Skin>

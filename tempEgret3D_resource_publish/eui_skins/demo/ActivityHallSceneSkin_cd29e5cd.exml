@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityHallSceneSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         height="1624">
+    <w:Declarations></w:Declarations>
+    <w:Config id="1616faa8fe5"></w:Config>
+	<e:Group left="0" right="0" top="0" width="100%" height="100%" cacheAsBitmap="false">
+		<e:Scroller id="scroller" scrollPolicyH="off" scrollPolicyV="on" left="0" right="0" scaleX="1" scaleY="1" top="0" visible="true" height="100%" bounces="false">
+			<e:Group id="all_g" height="100%" top="0" width="750" horizontalCenter="0" visible="true" x="881" y="-1374" scaleX="1" scaleY="1">
+				<e:Group id="model_g" y="0" horizontalCenter="0" width="750" visible="true">
+					<e:Image source="hall_bg_jpg" horizontalCenter="0" bottom="0"/>
+				</e:Group>
+				<e:Group id="level_g" horizontalCenter="0" y="994" visible="true">
+					<e:Image source="levelBg_png" left="0" top="0"/>
+					<e:Image id="levelBar" source="levelBar_png" y="3" left="75" visible="true" scale9Grid="4,13,150,13"/>
+					<e:Label id="levelLabel" text="Lv.1" textColor="0x6B626F" size="20" left="24" top="15"/>
+					<e:Label id="levelBarLabel" text="1/14" top="13" right="70" size="20" textColor="0xFFFFFF" strokeColor="0xFF5B7F" stroke="2"/>
+				</e:Group>
+				<e:Image id="dBg" source="dBg_png" horizontalCenter="0" fillMode="repeat" height="380" scale9Grid="25,105,663,303" y="1244" anchorOffsetY="0" visible="true"/>
+				<e:Image id="coreBtn" source="hall_other_btn_png" scaleX="1" scaleY="1" visible="true" right="11" y="276"/>
+				<e:Group left="0" right="0" top="0" visible="true" touchChildren="true" touchEnabled="false">
+				<e:Button id="backBtn" anchorOffsetY="0" anchorOffsetX="0" visible="true" scaleX="1" scaleY="1" left="26" top="93">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hall_back_btn_png" source.down="hall_back_btn_png" source.disabled="hall_back_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Image id="title" source="hall_title_png" scaleX="1" scaleY="1" horizontalCenter="0" top="78" touchEnabled="false"/>
+				<e:Image id="rule" source="hall_rule_png" visible="true" scaleX="1" scaleY="1" right="13" top="94"/>
+				<e:Image source="hall_time_gift_png" scaleX="1" scaleY="1" right="10" top="400" visible="false"/>
+				</e:Group>
+				<e:Group id="test_g" left="0" top="279" visible="true">
+					<e:Button id="leftBtn" label="清数据" anchorOffsetY="0" anchorOffsetX="0" visible="true" scaleX="1" scaleY="1" width="209" height="80" x="0" y="94">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mask_png" source.down="mask_png" source.disabled="mask_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button id="shareBtn" label="分享测试" anchorOffsetY="0" anchorOffsetX="0" visible="false" scaleX="1" scaleY="1" width="209" height="80" x="19" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mask_png" source.down="mask_png" source.disabled="mask_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Button id="rightBtn" label="加钱测试" anchorOffsetY="0" anchorOffsetX="0" visible="true" scaleX="1" scaleY="1" width="209" height="80" x="41" y="202">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mask_png" source.down="mask_png" source.disabled="mask_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:layout>
+					<e:VerticalLayout/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="list_g" visible="true" width="750" horizontalCenter="0" height="600" y="1061">
+				<e:Image source="hall_item_bg_png" scaleX="1" scaleY="1" horizontalCenter="0" top="0" height="600"/>
+				<e:Image source="hall_item_bg_0_png" horizontalCenter="0" height="563" verticalCenter="0"/>
+				<e:Group width="100%" horizontalCenter="0" top="52">
+					<e:List id="itemList" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="4" requestedRowCount="2" horizontalGap="20" verticalGap="15"/>
+					</e:layout>
+					</e:List>
+					<e:layout>
+					<e:HorizontalLayout horizontalAlign="center"/>
+					</e:layout>
+				</e:Group>
+				<e:Button id="addCoin" anchorOffsetY="0" anchorOffsetX="0" visible="true" scaleX="1" scaleY="1" right="33" bottom="65" x="551" y="1264">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hall_get_coin_png" source.down="hall_get_coin_png" source.disabled="hall_get_coin_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group id="add_g" horizontalCenter="0" bottom="69" visible="true">
+					<e:Button id="addBtn" anchorOffsetY="0" anchorOffsetX="0" visible="true" scaleX="1" scaleY="1" x="0" y="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hall_add_btn_png" source.down="hall_add_btn_png" source.disabled="hall_add_btn_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+					</e:Button>
+					<e:Label id="addBtnTF" text="Lv.1 消耗100鹿币" horizontalCenter="0" bottom="23" size="23" textColor="0x814315" bold="true"/>
+				</e:Group>
+				<e:Button id="team" anchorOffsetY="0" anchorOffsetX="0" visible="true" scaleX="1" scaleY="1" bottom="65" y="1274" left="33">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="hall_team_add_png" source.down="hall_team_add_png" source.disabled="hall_team_add_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+					<e:Group horizontalCenter="0" bottom="42">
+						<e:Label text="下拉边玩边买好货" y="2" textColor="0x888888" textAlign="center" size="23" x="0"/>
+						<e:Image source="down_png" x="193" y="5"/>
+					</e:Group>
+				</e:Group>
+				<e:Group id="gift_g" y="774.048" right="0" visible="false">
+					<e:Image id="gift1" source="gift_box_btn_png" height="119" y="103" x="0" visible="false"/>
+					<e:Image id="gift0" source="gift_box_pao_png" height="89" y="0" x="30" visible="false"/>
+				</e:Group>
+				<e:Group id="gold_g" left="37" width="151" height="131" y="868.048" visible="true">
+				<e:Image source="hall_coin_icon_png" height="118" horizontalCenter="0" top="0"/>
+				<e:Image source="hall_coin_bg_png" horizontalCenter="0" bottom="0" height="56"/>
+					<e:Label anchorOffsetX="0" anchorOffsetY="0" id="coin" scaleX="1" scaleY="1" size="32" verticalAlign="middle" textAlign="center" text="123456" visible="true" horizontalCenter="0" top="90" textColor="0xFFFFFF"/>
+				</e:Group>
+				<e:Group id="bd_g" anchorOffsetY="0" horizontalCenter="0" width="680" visible="true" y="1621">
+					<e:Image id="exBg" source="exBG_png" scaleX="1" scaleY="1" horizontalCenter="0" fillMode="scale" scale9Grid="44,39,649,312" top="0" height="100%"/>
+					<e:Image scaleX="1" scaleY="1" horizontalCenter="0" fillMode="scale" scale9Grid="44,39,649,312" source="bdTitle_png" top="24"/>
+					<e:List id="bdList" horizontalCenter="0" top="87" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+					<e:layout>
+						<e:TileLayout requestedColumnCount="3" horizontalGap="40" verticalGap="30" horizontalAlign="center"/>
+					</e:layout>
+					</e:List>
+				</e:Group>
+				<e:Group id="coinAni_g" y="200" x="0" visible="true">
+				</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<e:Rect id="block" height="100%" left="0" right="0" top="0" strokeAlpha="1" fillAlpha="0.7" strokeWeight="0" x="0" y="0" scaleX="1" scaleY="1" fillColor="0x000000" strokeColor="0xFCFCFC" visible="false"/>
+        
+	</e:Group>
+</e:Skin>

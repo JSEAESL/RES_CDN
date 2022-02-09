@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="scene.BeginSceneSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+          width="750" height="1334">
+    <w:Declarations></w:Declarations>
+    <w:Config id="1616faa8fe5"></w:Config>
+    <e:Rect scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" fillAlpha="0.8" visible="true" />
+    <e:Group width="100%" height="100%" x="0" y="0">
+        <e:Group id="test_g" width="200" height="200" right="0" bottom="0" visible="true">
+            <e:Scroller id="scroller" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetY="0" anchorOffsetX="0"
+                        visible="true" right="0" bottom="0" x="290.0000000000001" y="-72" scaleX="1" scaleY="1">
+                <e:Group anchorOffsetY="0" anchorOffsetX="0" visible="true" x="0" y="0">
+                    <e:List id="testList" anchorOffsetX="0" anchorOffsetY="0" visible="true"
+                            left="0" top="0">
+                        <e:ArrayCollection>
+                            <e:Array/>
+                        </e:ArrayCollection>
+                    </e:List>
+                </e:Group>
+                <e:Skin>
+                    <e:HScrollBar id="horizontalScrollBar" width="100%" height="30" bottom="0">
+                        <e:Skin>
+                            <e:Image width="100%" height="100%"  scale9Grid="1,1,4,4" />
+                            <e:Image id="thumb" width="30" height="30"  scale9Grid="1,1,4,4" />
+                        </e:Skin>
+                    </e:HScrollBar>
+                    <e:VScrollBar id="verticalScrollBar" width="30" height="100%" right="0" visible="false">
+                        <e:Skin>
+                            <e:Image width="100%" height="100%"  scale9Grid="1,1,4,4" />
+                            <e:Image id="thumb" width="30" height="30"  scale9Grid="1,1,4,4" />
+                        </e:Skin>
+                    </e:VScrollBar>
+                </e:Skin>
+            </e:Scroller>
+        </e:Group>
+        <e:Group bottom="0" id="d_g" y="1144" visible="false" horizontalCenter="0">
+            <e:ToggleSwitch id="gameSwitch" label="ToggleButton" skinName="skins.ExToggleSwitchSkin" />
+        </e:Group>
+        <e:Group width="100%" height="200" bottom="0" id="frameAni_g" y="1154" visible="false" horizontalCenter="0">
+            <e:Button id="addFrame" label="addFrameAni" bottom="0" anchorOffsetY="0" height="80" anchorOffsetX="0"
+                      width="209" visible="true" y="120" scaleX="1" scaleY="1" horizontalCenter="0">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="testBtn_png" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+            <e:Button id="cleanAllFrame" label="cleanAllFrame" bottom="0" anchorOffsetY="0" height="80"
+                      anchorOffsetX="0" visible="true" y="120" scaleX="1" scaleY="1" right="0" width="209">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="testBtn_png" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+        </e:Group>
+        <e:Group width="100%" height="200" right="0" bottom="0" id="dragon_g" visible="false" horizontalCenter="0">
+            <e:Button id="addDragon" label="addDragon" bottom="0" anchorOffsetY="0" height="80" anchorOffsetX="0"
+                      width="209" visible="true" y="120" scaleX="1" scaleY="1" horizontalCenter="0">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="testBtn_png" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+            <e:Button id="cleanAllDragon" label="cleanAllDragon" bottom="0" anchorOffsetY="0" height="80"
+                      anchorOffsetX="0" visible="true" y="120" scaleX="1" scaleY="1" right="0" width="209">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="testBtn_png" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:Button>
+        </e:Group>
+        <e:Group width="100%" height="200" bottom="0" id="particle_g" y="0" visible="false" scaleX="1" scaleY="1"
+                 horizontalCenter="0">
+            <e:ToggleSwitch id="particleSwitch" label="ToggleButton" skinName="skins.ExToggleSwitchSkin"
+                            horizontalCenter="0" bottom="0" />
+        </e:Group>
+        <e:Button id="closeBtn" label="退出当前展示" left="0" bottom="0" anchorOffsetY="0" height="80" anchorOffsetX="0"
+                  width="209" visible="true">
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="testBtn_png" />
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+</e:Skin>

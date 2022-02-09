@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelUpViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         xmlns:ns1="*">
+    <w:Declarations></w:Declarations>
+    <w:Config id="1616faa8fe5"></w:Config>
+	<e:Group id="g" x="0" y="0" width="100%" height="100%" cacheAsBitmap="false">
+		<e:Rect scaleX="1" scaleY="1" fillAlpha="0.7" visible="true" width="100%" height="100%" x="0" y="0"/>
+		<e:Group horizontalCenter="0" top="197">
+			<e:Image source="levelup_bg_png" x="11" y="102"/>
+			<e:Image source="levelup_titile_png" x="5" y="0"/>
+			<e:Image id="btn" source="levelup_btn_png" x="98" y="970"/>
+			<e:Image source="levelup_bg1_png" x="66" y="124"/>
+			<e:Image id="icon" source="hall_icon_1_png" horizontalCenter="0" top="124"/>
+			<e:Image source="levelup_item0_png" x="133" y="749"/>
+			<e:Image source="levelup_item1_png" x="339" y="749"/>
+			<e:Image source="levelup_des0_png" x="134" y="696"/>
+			<e:Image source="levelup_des1_png" x="311" y="696"/>
+			<e:Image source="levelup_label_png" x="0" y="578"/>
+			<e:Label id="levelTF" text="1" textColor="0xFFFBDA" stroke="4" strokeColor="0xEA3660" size="80" verticalCenter="80.5" right="105" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="103"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

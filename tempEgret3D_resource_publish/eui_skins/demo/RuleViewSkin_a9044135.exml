@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.RuleViewSkin"
+	 width="750"
+	height="1624" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="g" width="750" height="1624" y="0" horizontalCenter="0">
+		<e:Rect fillAlpha="0.01" left="0" right="0" top="0" bottom="0" visible="false"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image source="ruleBg_png" y="78" x="0"/>
+			<e:Image id="btn" source="ruleback_png" x="641" y="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

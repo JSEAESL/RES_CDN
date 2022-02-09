@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MapSceneSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+         xmlns:ns1="*" width="750" height="1624">
+    <w:Declarations></w:Declarations>
+    <w:Config id="1616faa8fe5"></w:Config>
+	<e:Group id="g" width="100%" cacheAsBitmap="false" y="0" horizontalCenter="0" height="1624">
+		<e:Scroller id="scr" height="100%" width="750" y="0" horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:Group width="200" y="0" x="0">
+				<e:Group id="map_g" width="750" y="0" x="0" touchChildren="true" touchEnabled="true">
+				</e:Group>
+				<e:Group id="play_g" width="750" y="10" x="10" visible="false"/>
+				<e:Group id="city_g" width="750" y="10" x="10" visible="false"/>
+				<e:Group id="cloud_g" width="750" x="0" y="0" touchEnabled="false" touchChildren="false">
+				</e:Group>
+				<e:Image id="back" source="mapBack_png" scaleX="1" scaleY="1" left="18" top="22"/>
+				<e:Image source="mapTitle_png" top="13" left="200"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

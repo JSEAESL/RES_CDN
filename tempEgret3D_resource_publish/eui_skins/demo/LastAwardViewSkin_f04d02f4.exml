@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.LastAwardViewSkin"
+	 width="750"
+	height="1624" xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="g" width="750" height="100%" y="0" horizontalCenter="0">
+		<e:Rect fillAlpha="0.7" left="0" right="0" top="0" bottom="0" visible="false"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image id="btn" source="lastClose_png" horizontalCenter="0" bottom="-168"/>
+			<e:Image source="lastBg_png" horizontalCenter="0" top="0"/>
+			<e:Group id="ani_g" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label y="629.539" text="劳斯莱斯幻影 2021款 6.7T 长轴距版" size="33" italic="true" bold="true" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

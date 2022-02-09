@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ExComItemRenderSkin" minHeight="50" minWidth="100" currentState="has" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" 
+        width="154" height="164" states="empty,has">
+	<w:Declarations>
+	</w:Declarations>
+    <e:Group id="g" left="0" top="0" cacheAsBitmap="true">
+        <e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" source="hall_icon_bg_png" left="0" top="0" visible="true" />
+        <e:Image id="select" anchorOffsetX="0" anchorOffsetY="0" fillMode="repeat" source="hall_icon_bg_png" left="0"
+                 top="0" visible="true" includeIn="has" />
+        <e:Image id="icon" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"
+                 top="14" includeIn="has" />
+        <e:Label id="label" size="32" text="lv11" horizontalCenter="0" bottom="20" stroke="3" strokeColor="0x3B6D94"
+                 verticalAlign="middle" textAlign="center" textColor="0xFFFEA9" includeIn="has" />
+    </e:Group>
+</e:Skin>

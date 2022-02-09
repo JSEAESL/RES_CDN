@@ -1,0 +1,1105 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,global,language_json,exConfig_json,Frame_system_system_png,Btn_common_green_3_png,Btn_common_green_2_png,Btn_common_gray_png,sliderBg_png,sliderSide_png,transparent_png,translucent_layer_bg_5_png,translucent_layer_bg_0_png,close_png,translucent_layer_bg_3_png,translucent_png,servers_json",
+			"name": "comUI"
+		},
+		{
+			"keys": "mask_png,loadBar_png,loadBarBg_png,loadBg_png,loadTitle_png,PopLoadingSkin_exml",
+			"name": "loading"
+		},
+		{
+			"keys": "ExComItemRenderSkin_exml,ActivityHallSceneSkin_exml,light_png,hall_title_png,hall_time_gift_png,hall_team_add_png,hall_rule_png,hall_other_btn_png,hall_item_bg_png,hall_icon_bg_png,hall_get_coin_png,hall_dialog0_png,hall_coin_icon_png,hall_coin_bg_png,hall_back_btn_png,hall_add_btn_png,gift_box_pao_png,gift_box_btn_png,hall_item_bg_0_png,testBtn_png,hall_bg_jpg,hall_mini_icon_5_png,hall_mini_icon_4_png,hall_mini_icon_3_png,hall_mini_icon_2_png,hall_mini_icon_1_png,hall_mini_icon_0_png,coinAni_json,default_png,shadow_png,dBg_png,exBG_png,bdTitle_png,bdEnter_png,down_png,ExBdRenderSkin_exml,levelBg_png,levelBar_png,mxl24_json",
+			"name": "activityHallScene"
+		},
+		{
+			"keys": "CoinTaskSceneSkin_exml,ExTaskItemRenderSkin_exml,taskBtnEd_png,taskBtn_type_1_png,taskBtn_type_0_png,signLock_png,signEd_png,day5bg_png,day4bg_png,day3bg_png,day2bg_png,day1bg_png,coinTask_itemBg_png,coinAll_bg_png,coin_icon_png,big_icon_png,ExSignGiftRenderSkin_exml,coinTask_back_png,dayBg_png,share_png",
+			"name": "coinTaskScene"
+		},
+		{
+			"keys": "levelup_titile_png,levelup_label_png,levelup_item1_png,levelup_item0_png,levelup_des1_png,levelup_des0_png,levelup_btn_png,levelup_bg1_png,levelup_bg_png,LevelUpViewSkin_exml,hall_icon_5_png,hall_icon_4_png,hall_icon_3_png,hall_icon_2_png,hall_icon_1_png,hall_icon_0_png",
+			"name": "levelUpView"
+		},
+		{
+			"keys": "time_mp3,fail_mp3,sucess_mp3",
+			"name": "sound"
+		},
+		{
+			"keys": "task_csv,item_csv,sevenSign_csv,map_csv",
+			"name": "config"
+		},
+		{
+			"keys": "coreDBone_tex_1_png,coreDBone_tex_1_json,coreDBone_tex_0_png,coreDBone_tex_0_json,coreDBone_ske_json",
+			"name": "exDragBones"
+		},
+		{
+			"keys": "",
+			"name": "dragonBones"
+		},
+		{
+			"keys": "",
+			"name": "frameAni"
+		},
+		{
+			"keys": "snowflake_png,snowflake_json",
+			"name": "particle"
+		},
+		{
+			"keys": "testBtn_png,ExToggleSwitchSkin_exml,ExComItemRenderSkin_exml,BeginSceneSkin_exml",
+			"name": "beginScene"
+		},
+		{
+			"keys": "",
+			"name": "html"
+		},
+		{
+			"keys": "mapTitle_png,mapBack_png,map9_png,map8_png,map7_png,map6_png,map5_png,map4_png,map3_png,map2_png,map11_png,map10_png,map1_png,map0_png,flySide_png,cloud2_png,cloud1_png,cloud0_png,map12_png,MapSceneSkin_exml,cloud4_png,cloud3_png,mapLock_png,map_0_2_jpg,map_0_1_jpg,map_0_0_jpg,MapSceneCreatPointSkin_exml",
+			"name": "map"
+		},
+		{
+			"keys": "RuleViewSkin_exml,ruleBg_png,ruleback_png",
+			"name": "ruleView"
+		},
+		{
+			"keys": "zou0_json,yuandi0_json",
+			"name": "mapAni0"
+		},
+		{
+			"keys": "zou1_json,yuandi1_json",
+			"name": "mapAni1"
+		},
+		{
+			"keys": "zou2_json,yuandi2_json",
+			"name": "mapAni2"
+		},
+		{
+			"keys": "zou3_json,yuandi3_json",
+			"name": "mapAni3"
+		},
+		{
+			"keys": "zou4_json,yuandi4_json",
+			"name": "mapAni4"
+		},
+		{
+			"keys": "zou5_json,yuandi5_json",
+			"name": "mapAni5"
+		},
+		{
+			"keys": "LastAwardViewSkin_exml,lastBg_png,lastClose_png,che_000_0_json",
+			"name": "LastAward"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "config/global.json",
+			"type": "json",
+			"name": "global"
+		},
+		{
+			"url": "eui_skins/scene/BeginSceneSkin.exml",
+			"type": "text",
+			"name": "BeginSceneSkin_exml"
+		},
+		{
+			"url": "eui_skins/scene/PopLoadingSkin.exml",
+			"type": "text",
+			"name": "PopLoadingSkin_exml"
+		},
+		{
+			"url": "config/language.json",
+			"type": "json",
+			"name": "language_json"
+		},
+		{
+			"url": "eui_skins/ButtonSkin.exml",
+			"type": "bin",
+			"name": "ButtonSkin_exml"
+		},
+		{
+			"url": "eui_skins/CheckBoxSkin.exml",
+			"type": "bin",
+			"name": "CheckBoxSkin_exml"
+		},
+		{
+			"url": "eui_skins/HScrollBarSkin.exml",
+			"type": "bin",
+			"name": "HScrollBarSkin_exml"
+		},
+		{
+			"url": "eui_skins/HSliderSkin.exml",
+			"type": "bin",
+			"name": "HSliderSkin_exml"
+		},
+		{
+			"url": "eui_skins/ItemRendererSkin.exml",
+			"type": "bin",
+			"name": "ItemRendererSkin_exml"
+		},
+		{
+			"url": "eui_skins/PanelSkin.exml",
+			"type": "bin",
+			"name": "PanelSkin_exml"
+		},
+		{
+			"url": "eui_skins/ProgressBarSkin.exml",
+			"type": "bin",
+			"name": "ProgressBarSkin_exml"
+		},
+		{
+			"url": "eui_skins/RadioButtonSkin.exml",
+			"type": "bin",
+			"name": "RadioButtonSkin_exml"
+		},
+		{
+			"url": "eui_skins/ScrollerSkin.exml",
+			"type": "bin",
+			"name": "ScrollerSkin_exml"
+		},
+		{
+			"url": "eui_skins/TextInputSkin.exml",
+			"type": "bin",
+			"name": "TextInputSkin_exml"
+		},
+		{
+			"url": "eui_skins/ToggleSwitchSkin.exml",
+			"type": "bin",
+			"name": "ToggleSwitchSkin_exml"
+		},
+		{
+			"url": "eui_skins/VScrollBarSkin.exml",
+			"type": "bin",
+			"name": "VScrollBarSkin_exml"
+		},
+		{
+			"url": "eui_skins/VSliderSkin.exml",
+			"type": "bin",
+			"name": "VSliderSkin_exml"
+		},
+		{
+			"url": "default.thm.json",
+			"type": "json",
+			"name": "default.thm_json"
+		},
+		{
+			"url": "default.res.json",
+			"type": "json",
+			"name": "default.res_json"
+		},
+		{
+			"url": "eui_skins/exSkin/ExComItemRenderSkin.exml",
+			"type": "text",
+			"name": "ExComItemRenderSkin_exml"
+		},
+		{
+			"url": "eui_skins/exSkin/ExToggleSwitchSkin.exml",
+			"type": "text",
+			"name": "ExToggleSwitchSkin_exml"
+		},
+		{
+			"url": "particle/snowflake.png",
+			"type": "image",
+			"name": "snowflake_png"
+		},
+		{
+			"url": "particle/snowflake.json",
+			"type": "json",
+			"name": "snowflake_json"
+		},
+		{
+			"url": "loading/mask.png",
+			"type": "image",
+			"name": "mask_png"
+		},
+		{
+			"url": "gameAssets/TestScene/testBtn.png",
+			"type": "image",
+			"name": "testBtn_png"
+		},
+		{
+			"url": "config/exConfig.json",
+			"type": "json",
+			"name": "exConfig_json"
+		},
+		{
+			"url": "eui_skins/demo/ActivityHallSceneSkin.exml",
+			"type": "text",
+			"name": "ActivityHallSceneSkin_exml"
+		},
+		{
+			"url": "assets/ccRes/Btn_common_gray.png",
+			"type": "image",
+			"name": "Btn_common_gray_png"
+		},
+		{
+			"url": "assets/ccRes/Btn_common_green_2.png",
+			"type": "image",
+			"name": "Btn_common_green_2_png"
+		},
+		{
+			"url": "assets/ccRes/Btn_common_green_3.png",
+			"type": "image",
+			"name": "Btn_common_green_3_png"
+		},
+		{
+			"url": "assets/ccRes/Frame_system_system.png",
+			"type": "image",
+			"name": "Frame_system_system_png"
+		},
+		{
+			"url": "exRes/light.png",
+			"type": "image",
+			"name": "light_png"
+		},
+		{
+			"url": "eui_skins/exSkin/ExTaskItemRenderSkin.exml",
+			"type": "text",
+			"name": "ExTaskItemRenderSkin_exml"
+		},
+		{
+			"url": "eui_skins/demo/CoinTaskSceneSkin.exml",
+			"type": "text",
+			"name": "CoinTaskSceneSkin_exml"
+		},
+		{
+			"url": "assets/ScrollBar/sliderBg.png",
+			"type": "image",
+			"name": "sliderBg_png"
+		},
+		{
+			"url": "assets/ScrollBar/sliderSide.png",
+			"type": "image",
+			"name": "sliderSide_png"
+		},
+		{
+			"url": "assets/ccRes/close.png",
+			"type": "image",
+			"name": "close_png"
+		},
+		{
+			"url": "assets/ccRes/translucent.png",
+			"type": "image",
+			"name": "translucent_png"
+		},
+		{
+			"url": "assets/ccRes/translucent_layer_bg_0.png",
+			"type": "image",
+			"name": "translucent_layer_bg_0_png"
+		},
+		{
+			"url": "assets/ccRes/translucent_layer_bg_3.png",
+			"type": "image",
+			"name": "translucent_layer_bg_3_png"
+		},
+		{
+			"url": "assets/ccRes/translucent_layer_bg_5.png",
+			"type": "image",
+			"name": "translucent_layer_bg_5_png"
+		},
+		{
+			"url": "assets/ccRes/transparent.png",
+			"type": "image",
+			"name": "transparent_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/gift_box_btn.png",
+			"type": "image",
+			"name": "gift_box_btn_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/gift_box_pao.png",
+			"type": "image",
+			"name": "gift_box_pao_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_add_btn.png",
+			"type": "image",
+			"name": "hall_add_btn_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_back_btn.png",
+			"type": "image",
+			"name": "hall_back_btn_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_coin_bg.png",
+			"type": "image",
+			"name": "hall_coin_bg_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_coin_icon.png",
+			"type": "image",
+			"name": "hall_coin_icon_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_dialog0.png",
+			"type": "image",
+			"name": "hall_dialog0_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_get_coin.png",
+			"type": "image",
+			"name": "hall_get_coin_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_icon_bg.png",
+			"type": "image",
+			"name": "hall_icon_bg_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_item_bg.png",
+			"type": "image",
+			"name": "hall_item_bg_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_other_btn.png",
+			"type": "image",
+			"name": "hall_other_btn_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_rule.png",
+			"type": "image",
+			"name": "hall_rule_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_team_add.png",
+			"type": "image",
+			"name": "hall_team_add_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_time_gift.png",
+			"type": "image",
+			"name": "hall_time_gift_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_title.png",
+			"type": "image",
+			"name": "hall_title_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_item_bg_0.png",
+			"type": "image",
+			"name": "hall_item_bg_0_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_item0.png",
+			"type": "image",
+			"name": "levelup_item0_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_btn.png",
+			"type": "image",
+			"name": "levelup_btn_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_item1.png",
+			"type": "image",
+			"name": "levelup_item1_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_des1.png",
+			"type": "image",
+			"name": "levelup_des1_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_bg.png",
+			"type": "image",
+			"name": "levelup_bg_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_bg1.png",
+			"type": "image",
+			"name": "levelup_bg1_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_des0.png",
+			"type": "image",
+			"name": "levelup_des0_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_label.png",
+			"type": "image",
+			"name": "levelup_label_png"
+		},
+		{
+			"url": "exAssets/levelUpView/levelup_titile.png",
+			"type": "image",
+			"name": "levelup_titile_png"
+		},
+		{
+			"url": "eui_skins/demo/LevelUpViewSkin.exml",
+			"type": "text",
+			"name": "LevelUpViewSkin_exml"
+		},
+		{
+			"url": "sound/fail.mp3",
+			"type": "sound",
+			"name": "fail_mp3"
+		},
+		{
+			"url": "sound/sucess.mp3",
+			"type": "sound",
+			"name": "sucess_mp3"
+		},
+		{
+			"url": "sound/time.mp3",
+			"type": "sound",
+			"name": "time_mp3"
+		},
+		{
+			"url": "config/servers.json",
+			"type": "json",
+			"name": "servers_json"
+		},
+		{
+			"url": "config/task.csv",
+			"type": "text",
+			"name": "task_csv"
+		},
+		{
+			"url": "config/sevenSign.csv",
+			"type": "text",
+			"name": "sevenSign_csv"
+		},
+		{
+			"url": "config/item.csv",
+			"type": "text",
+			"name": "item_csv"
+		},
+		{
+			"url": "exDragonbones/coreDBone_tex_0.png",
+			"type": "image",
+			"name": "coreDBone_tex_0_png"
+		},
+		{
+			"url": "exDragonbones/coreDBone_tex_1.png",
+			"type": "image",
+			"name": "coreDBone_tex_1_png"
+		},
+		{
+			"url": "exDragonbones/coreDBone_tex_1.json",
+			"type": "json",
+			"name": "coreDBone_tex_1_json"
+		},
+		{
+			"url": "exDragonbones/coreDBone_tex_0.json",
+			"type": "json",
+			"name": "coreDBone_tex_0_json"
+		},
+		{
+			"url": "exDragonbones/coreDBone_ske.json",
+			"type": "json",
+			"name": "coreDBone_ske_json"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_bg.jpg",
+			"type": "image",
+			"name": "hall_bg_jpg"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_mini_icon_0.png",
+			"type": "image",
+			"name": "hall_mini_icon_0_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_mini_icon_1.png",
+			"type": "image",
+			"name": "hall_mini_icon_1_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_mini_icon_2.png",
+			"type": "image",
+			"name": "hall_mini_icon_2_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_mini_icon_3.png",
+			"type": "image",
+			"name": "hall_mini_icon_3_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_mini_icon_4.png",
+			"type": "image",
+			"name": "hall_mini_icon_4_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/hall_mini_icon_5.png",
+			"type": "image",
+			"name": "hall_mini_icon_5_png"
+		},
+		{
+			"url": "exAssets/levelUpView/hall_icon_1.png",
+			"type": "image",
+			"name": "hall_icon_1_png"
+		},
+		{
+			"url": "exAssets/levelUpView/hall_icon_0.png",
+			"type": "image",
+			"name": "hall_icon_0_png"
+		},
+		{
+			"url": "exAssets/levelUpView/hall_icon_2.png",
+			"type": "image",
+			"name": "hall_icon_2_png"
+		},
+		{
+			"url": "exAssets/levelUpView/hall_icon_5.png",
+			"type": "image",
+			"name": "hall_icon_5_png"
+		},
+		{
+			"url": "exAssets/levelUpView/hall_icon_3.png",
+			"type": "image",
+			"name": "hall_icon_3_png"
+		},
+		{
+			"url": "exAssets/levelUpView/hall_icon_4.png",
+			"type": "image",
+			"name": "hall_icon_4_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/coinAll_bg.png",
+			"type": "image",
+			"name": "coinAll_bg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/coinTask_itemBg.png",
+			"type": "image",
+			"name": "coinTask_itemBg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/day1bg.png",
+			"type": "image",
+			"name": "day1bg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/day2bg.png",
+			"type": "image",
+			"name": "day2bg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/day3bg.png",
+			"type": "image",
+			"name": "day3bg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/day4bg.png",
+			"type": "image",
+			"name": "day4bg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/day5bg.png",
+			"type": "image",
+			"name": "day5bg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/signEd.png",
+			"type": "image",
+			"name": "signEd_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/signLock.png",
+			"type": "image",
+			"name": "signLock_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/taskBtnEd.png",
+			"type": "image",
+			"name": "taskBtnEd_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/taskBtn_type_0.png",
+			"type": "image",
+			"name": "taskBtn_type_0_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/taskBtn_type_1.png",
+			"type": "image",
+			"name": "taskBtn_type_1_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/coin_icon.png",
+			"type": "image",
+			"name": "coin_icon_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/big_icon.png",
+			"type": "image",
+			"name": "big_icon_png"
+		},
+		{
+			"url": "eui_skins/exSkin/ExSignGiftRenderSkin.exml",
+			"type": "text",
+			"name": "ExSignGiftRenderSkin_exml"
+		},
+		{
+			"url": "exAssets/coinTaskScene/coinTask_back.png",
+			"type": "image",
+			"name": "coinTask_back_png"
+		},
+		{
+			"url": "frameAni/coinAni.json",
+			"type": "sheet",
+			"name": "coinAni_json",
+			"subkeys": "coinAni_0_png,coinAni_1_png,coinAni_2_png,coinAni_3_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/default.png",
+			"type": "image",
+			"name": "default_png"
+		},
+		{
+			"url": "frameAni/mxl.json",
+			"type": "sheet",
+			"name": "mxl_json",
+			"subkeys": "mxl0000_png,mxl0001_png,mxl0002_png,mxl0003_png,mxl0004_png,mxl0005_png,mxl0006_png,mxl0007_png,mxl0008_png,mxl0009_png,mxl0010_png,mxl0011_png,mxl0012_png,mxl0013_png,mxl0014_png,mxl0015_png,mxl0016_png,mxl0017_png,mxl0018_png,mxl0019_png,mxl0020_png,mxl0021_png,mxl0022_png,mxl0023_png,mxl0024_png,mxl0025_png,mxl0026_png,mxl0027_png,mxl0028_png,mxl0029_png,mxl0030_png,mxl0031_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/shadow.png",
+			"type": "image",
+			"name": "shadow_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/dayBg.png",
+			"type": "image",
+			"name": "dayBg_png"
+		},
+		{
+			"url": "exAssets/coinTaskScene/share.png",
+			"type": "image",
+			"name": "share_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/exBG.png",
+			"type": "image",
+			"name": "exBG_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/dBg.png",
+			"type": "image",
+			"name": "dBg_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/bdTitle.png",
+			"type": "image",
+			"name": "bdTitle_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/bdEnter.png",
+			"type": "image",
+			"name": "bdEnter_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/down.png",
+			"type": "image",
+			"name": "down_png"
+		},
+		{
+			"url": "eui_skins/exSkin/ExBdRenderSkin.exml",
+			"type": "text",
+			"name": "ExBdRenderSkin_exml"
+		},
+		{
+			"url": "exAssets/mapScene/cloud0.png",
+			"type": "image",
+			"name": "cloud0_png"
+		},
+		{
+			"url": "exAssets/mapScene/cloud1.png",
+			"type": "image",
+			"name": "cloud1_png"
+		},
+		{
+			"url": "exAssets/mapScene/cloud2.png",
+			"type": "image",
+			"name": "cloud2_png"
+		},
+		{
+			"url": "exAssets/mapScene/flySide.png",
+			"type": "image",
+			"name": "flySide_png"
+		},
+		{
+			"url": "exAssets/mapScene/map0.png",
+			"type": "image",
+			"name": "map0_png"
+		},
+		{
+			"url": "exAssets/mapScene/map1.png",
+			"type": "image",
+			"name": "map1_png"
+		},
+		{
+			"url": "exAssets/mapScene/map10.png",
+			"type": "image",
+			"name": "map10_png"
+		},
+		{
+			"url": "exAssets/mapScene/map11.png",
+			"type": "image",
+			"name": "map11_png"
+		},
+		{
+			"url": "exAssets/mapScene/map2.png",
+			"type": "image",
+			"name": "map2_png"
+		},
+		{
+			"url": "exAssets/mapScene/map3.png",
+			"type": "image",
+			"name": "map3_png"
+		},
+		{
+			"url": "exAssets/mapScene/map4.png",
+			"type": "image",
+			"name": "map4_png"
+		},
+		{
+			"url": "exAssets/mapScene/map5.png",
+			"type": "image",
+			"name": "map5_png"
+		},
+		{
+			"url": "exAssets/mapScene/map6.png",
+			"type": "image",
+			"name": "map6_png"
+		},
+		{
+			"url": "exAssets/mapScene/map7.png",
+			"type": "image",
+			"name": "map7_png"
+		},
+		{
+			"url": "exAssets/mapScene/map8.png",
+			"type": "image",
+			"name": "map8_png"
+		},
+		{
+			"url": "exAssets/mapScene/map9.png",
+			"type": "image",
+			"name": "map9_png"
+		},
+		{
+			"url": "exAssets/mapScene/mapBack.png",
+			"type": "image",
+			"name": "mapBack_png"
+		},
+		{
+			"url": "exAssets/mapScene/mapTitle.png",
+			"type": "image",
+			"name": "mapTitle_png"
+		},
+		{
+			"url": "exAssets/mapScene/map12.png",
+			"type": "image",
+			"name": "map12_png"
+		},
+		{
+			"url": "config/map.csv",
+			"type": "text",
+			"name": "map_csv"
+		},
+		{
+			"url": "eui_skins/demo/MapSceneSkin.exml",
+			"type": "text",
+			"name": "MapSceneSkin_exml"
+		},
+		{
+			"url": "exAssets/mapScene/cloud3.png",
+			"type": "image",
+			"name": "cloud3_png"
+		},
+		{
+			"url": "exAssets/mapScene/cloud4.png",
+			"type": "image",
+			"name": "cloud4_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/yuandi0.json",
+			"type": "sheet",
+			"name": "yuandi0_json",
+			"subkeys": "yuandi000_png,yuandi001_png,yuandi002_png,yuandi003_png,yuandi004_png,yuandi005_png,yuandi006_png,yuandi007_png,yuandi008_png,yuandi009_png,yuandi010_png,yuandi011_png"
+		},
+		{
+			"url": "exAssets/mapScene/mapLock.png",
+			"type": "image",
+			"name": "mapLock_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/yuandi2.json",
+			"type": "sheet",
+			"name": "yuandi2_json",
+			"subkeys": "yuandi200_png,yuandi201_png,yuandi202_png,yuandi203_png,yuandi204_png,yuandi205_png,yuandi206_png,yuandi207_png,yuandi208_png,yuandi209_png,yuandi210_png,yuandi211_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/yuandi4.json",
+			"type": "sheet",
+			"name": "yuandi4_json",
+			"subkeys": "yuandi400_png,yuandi401_png,yuandi402_png,yuandi403_png,yuandi404_png,yuandi405_png,yuandi406_png,yuandi407_png,yuandi408_png,yuandi409_png,yuandi410_png,yuandi411_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/yuandi3.json",
+			"type": "sheet",
+			"name": "yuandi3_json",
+			"subkeys": "yuandi300_png,yuandi301_png,yuandi302_png,yuandi303_png,yuandi304_png,yuandi305_png,yuandi306_png,yuandi307_png,yuandi308_png,yuandi309_png,yuandi310_png,yuandi311_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/yuandi5.json",
+			"type": "sheet",
+			"name": "yuandi5_json",
+			"subkeys": "yuandi500_png,yuandi501_png,yuandi502_png,yuandi503_png,yuandi504_png,yuandi505_png,yuandi506_png,yuandi507_png,yuandi508_png,yuandi509_png,yuandi510_png,yuandi511_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/zou3.json",
+			"type": "sheet",
+			"name": "zou3_json",
+			"subkeys": "zou300_png,zou301_png,zou302_png,zou303_png,zou304_png,zou305_png,zou306_png,zou307_png,zou308_png,zou309_png,zou310_png,zou311_png,zou312_png,zou313_png,zou314_png,zou315_png,zou316_png,zou317_png,zou318_png,zou319_png,zou320_png,zou321_png,zou322_png,zou323_png,zou324_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/zou0.json",
+			"type": "sheet",
+			"name": "zou0_json",
+			"subkeys": "zou000_png,zou001_png,zou002_png,zou003_png,zou004_png,zou005_png,zou006_png,zou007_png,zou008_png,zou009_png,zou010_png,zou011_png,zou012_png,zou013_png,zou014_png,zou015_png,zou016_png,zou017_png,zou018_png,zou019_png,zou020_png,zou021_png,zou022_png,zou023_png,zou024_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/zou2.json",
+			"type": "sheet",
+			"name": "zou2_json",
+			"subkeys": "zou200_png,zou201_png,zou202_png,zou203_png,zou204_png,zou205_png,zou206_png,zou207_png,zou208_png,zou209_png,zou210_png,zou211_png,zou212_png,zou213_png,zou214_png,zou215_png,zou216_png,zou217_png,zou218_png,zou219_png,zou220_png,zou221_png,zou222_png,zou223_png,zou224_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/yuandi1.json",
+			"type": "sheet",
+			"name": "yuandi1_json",
+			"subkeys": "yuandi100_png,yuandi101_png,yuandi102_png,yuandi103_png,yuandi104_png,yuandi105_png,yuandi106_png,yuandi107_png,yuandi108_png,yuandi109_png,yuandi110_png,yuandi111_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/zou4.json",
+			"type": "sheet",
+			"name": "zou4_json",
+			"subkeys": "zou400_png,zou401_png,zou402_png,zou403_png,zou404_png,zou405_png,zou406_png,zou407_png,zou408_png,zou409_png,zou410_png,zou411_png,zou412_png,zou413_png,zou414_png,zou415_png,zou416_png,zou417_png,zou418_png,zou419_png,zou420_png,zou421_png,zou422_png,zou423_png,zou424_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/zou5.json",
+			"type": "sheet",
+			"name": "zou5_json",
+			"subkeys": "zou500_png,zou501_png,zou502_png,zou503_png,zou504_png,zou505_png,zou506_png,zou507_png,zou508_png,zou509_png,zou510_png,zou511_png,zou512_png,zou513_png,zou514_png,zou515_png,zou516_png,zou517_png,zou518_png,zou519_png,zou520_png,zou521_png,zou522_png,zou523_png,zou524_png"
+		},
+		{
+			"url": "exAssets/mapScene/frameAni/zou1.json",
+			"type": "sheet",
+			"name": "zou1_json",
+			"subkeys": "zou100_png,zou101_png,zou102_png,zou103_png,zou104_png,zou105_png,zou106_png,zou107_png,zou108_png,zou109_png,zou110_png,zou111_png,zou112_png,zou113_png,zou114_png,zou115_png,zou116_png,zou117_png,zou118_png,zou119_png,zou120_png,zou121_png,zou122_png,zou123_png,zou124_png"
+		},
+		{
+			"url": "eui_skins/demo/RuleViewSkin.exml",
+			"type": "text",
+			"name": "RuleViewSkin_exml"
+		},
+		{
+			"url": "exAssets/ruleView/ruleBg.png",
+			"type": "image",
+			"name": "ruleBg_png"
+		},
+		{
+			"url": "exAssets/ruleView/ruleback.png",
+			"type": "image",
+			"name": "ruleback_png"
+		},
+		{
+			"url": "exAssets/loading/loadBar.png",
+			"type": "image",
+			"name": "loadBar_png"
+		},
+		{
+			"url": "exAssets/loading/loadBarBg.png",
+			"type": "image",
+			"name": "loadBarBg_png"
+		},
+		{
+			"url": "exAssets/loading/loadBg.png",
+			"type": "image",
+			"name": "loadBg_png"
+		},
+		{
+			"url": "exAssets/loading/loadTitle.png",
+			"type": "image",
+			"name": "loadTitle_png"
+		},
+		{
+			"url": "exAssets/mapScene/map_0_0.jpg",
+			"type": "image",
+			"name": "map_0_0_jpg"
+		},
+		{
+			"url": "exAssets/mapScene/map_0_1.jpg",
+			"type": "image",
+			"name": "map_0_1_jpg"
+		},
+		{
+			"url": "exAssets/mapScene/map_0_2.jpg",
+			"type": "image",
+			"name": "map_0_2_jpg"
+		},
+		{
+			"url": "eui_skins/demo/MapSceneCreatPointSkin.exml",
+			"type": "text",
+			"name": "MapSceneCreatPointSkin_exml"
+		},
+		{
+			"url": "eui_skins/demo/LastAwardViewSkin.exml",
+			"type": "text",
+			"name": "LastAwardViewSkin_exml"
+		},
+		{
+			"url": "exAssets/activityHallScene/levelBg.png",
+			"type": "image",
+			"name": "levelBg_png"
+		},
+		{
+			"url": "exAssets/activityHallScene/levelBar.png",
+			"type": "image",
+			"name": "levelBar_png"
+		},
+		{
+			"url": "exAssets/lastAwardView/lastBg.png",
+			"type": "image",
+			"name": "lastBg_png"
+		},
+		{
+			"url": "exAssets/lastAwardView/lastClose.png",
+			"type": "image",
+			"name": "lastClose_png"
+		},
+		{
+			"url": "frameAni/mxl24.json",
+			"type": "sheet",
+			"name": "mxl24_json",
+			"subkeys": "mxl000_png,mxl001_png,mxl002_png,mxl003_png,mxl004_png,mxl005_png,mxl006_png,mxl007_png,mxl008_png,mxl009_png,mxl010_png,mxl011_png,mxl012_png,mxl013_png,mxl014_png,mxl015_png,mxl016_png,mxl017_png,mxl018_png,mxl019_png,mxl020_png,mxl021_png,mxl022_png,mxl023_png,mxl024_png,mxl025_png,mxl026_png,mxl027_png,mxl028_png,mxl029_png,mxl030_png,mxl031_png,mxl032_png,mxl033_png,mxl034_png,mxl035_png,mxl036_png,mxl037_png,mxl038_png,mxl039_png,mxl040_png,mxl041_png,mxl042_png,mxl043_png,mxl044_png,mxl045_png,mxl046_png,mxl047_png,mxl048_png,mxl049_png,mxl050_png,mxl051_png,mxl052_png,mxl053_png,mxl054_png,mxl055_png,mxl056_png,mxl057_png,mxl058_png,mxl059_png,mxl060_png,mxl061_png,mxl062_png,mxl063_png"
+		},
+		{
+			"url": "frameAni/che_000_0.json",
+			"type": "sheet",
+			"name": "che_000_0_json",
+			"subkeys": "che_000_000_png,che_000_001_png,che_000_002_png,che_000_003_png,che_000_004_png,che_000_005_png,che_000_006_png,che_000_007_png,che_000_008_png,che_000_009_png,che_000_010_png,che_000_011_png,che_000_012_png,che_000_013_png,che_000_014_png,che_000_015_png,che_000_016_png,che_000_017_png,che_000_018_png,che_000_019_png,che_000_020_png,che_000_021_png,che_000_022_png,che_000_023_png,che_000_024_png"
+		}
+	]
+}

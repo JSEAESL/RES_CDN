@@ -1,0 +1,14 @@
+id,type(1跳转网页2点击领取),功能参数,描述标题,描述文字,图片名,奖励类型(1金币,奖励数值
+number,number,string,string,string,string,string,string
+ID,type,url,title,label,icon,awardTypes,awards
+1,2,https://www.baidu.com,邀请好友得鹿币,成功邀请每次奖励2000鹿币，每天10次,Icon_Share,1,2000
+2,1,http://wap.js.10086.cn/nact/2392,浏览我们追剧吧专区,浏览我们追剧吧专区10秒，奖励2000鹿币,Icon_Task_task30,1,2000
+3,1,http://wap.js.10086.cn/nact/2381,浏览极客打卡专区,浏览极客打卡专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+4,1,http://wap.js.10086.cn/nact/2380,浏览移动会员专区,浏览移动会员专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+5,1,http://wap.js.10086.cn/nact/2492,浏览生活福利社专区,浏览生活福利社专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+6,1,http://wap.js.10086.cn/nact/2445,浏览动感地带专区,浏览动感地带专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+7,1,http://wap.js.10086.cn/mb_nact/new/act-front/cj/cj022/main.html?actNum=700000764,浏览流量大富豪专区,浏览流量大富豪专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+8,1,https://wap.js.10086.cn/mb_nact/new/act-front/cj/cj019/main.html?actNum=700001833,浏览幸运大转盘专区,浏览幸运大转盘专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+9,1,https://wap.js.10086.cn/mb_nact/new/act-front/cj/cj015/main.html?actNum=700001067,浏览刷视频专区,浏览刷视频专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+10,1,https://wap.js.10086.cn/mb_nact/new/act-front/cj/cj022/main.html?actNum=700001062,浏览办业务专区,浏览办业务专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
+11,1,https://wap.js.10086.cn/mb_nact/new/act-front/cjlb/lb01/main.html?actNum=CJLB00000059,浏览宽带体验官专区,浏览宽带体验官专区10秒，奖励2000鹿币,Icon_Task_task32,1,2000
